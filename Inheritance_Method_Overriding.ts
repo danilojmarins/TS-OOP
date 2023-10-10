@@ -27,7 +27,7 @@ class Horse extends Animal_ {
     }
 
     move(distanceInMeters: number = 45) {
-        console.log('Galloping...');
+        console.log('Galloping...' + this.name);
         super.move(distanceInMeters);
     }
 }
